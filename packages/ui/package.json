@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "peerDependencies": {
     "react": "^19.0.0",
@@ -15,6 +16,10 @@
   "devDependencies": {
     "typescript": "^5",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "next": "15.3.5"
+  },
+  "dependencies": {
+    "@property-right/utils": "workspace:*"
   }
 }

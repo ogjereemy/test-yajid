@@ -5,7 +5,8 @@
     "declaration": true,
     "declarationDir": "dist",
     "jsx": "react-jsx",
-    "types": ["react", "react-dom"]
+    "types": ["react", "react-dom"],
+    "moduleResolution": "node"
   },
   "include": ["src/**/*"]
 }
