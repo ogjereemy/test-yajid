@@ -11,7 +11,9 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.5"
+    "next": "15.3.5",
+    "@property-right/ui": "workspace:*",
+    "@property-right/utils": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5",
