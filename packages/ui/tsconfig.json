@@ -11,5 +11,6 @@
       "@property-right/utils/*": ["../utils/src/*"]
     }
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "references": [{ "path": "../utils" }]
 }
