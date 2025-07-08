@@ -7,10 +7,11 @@
     "jsx": "react-jsx",
     "types": ["react", "react-dom"],
     "moduleResolution": "node",
+    "baseUrl": "./",
     "paths": {
+      "@property-right/utils": ["../utils/src/index.ts"],
       "@property-right/utils/*": ["../utils/src/*"]
     }
   },
-  "include": ["src/**/*"],
-  "references": [{ "path": "../utils" }]
+  "include": ["src/**/*"]
 }

@@ -1,1 +1,5 @@
 
+
+> @property-right/ui@0.1.0 typecheck /workspace/packages/ui
+> tsc -p tsconfig.json --noEmit
+
