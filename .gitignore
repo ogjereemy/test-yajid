@@ -1,0 +1,14 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+
+# Environment files
+.env*
