@@ -6,7 +6,10 @@
     "declarationDir": "dist",
     "jsx": "react-jsx",
     "types": ["react", "react-dom"],
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "paths": {
+      "@property-right/utils/*": ["../utils/src/*"]
+    }
   },
   "include": ["src/**/*"]
 }
